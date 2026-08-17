@@ -10,7 +10,7 @@
 
 Relatórios e resoluções das atividades propostas na disciplina **Paradigmas da Programação - S01**, organizados conforme as atividades realizadas ao longo do semestre.
 
-* [Relatório 01](exercicios-da-disciplina/relatorio-01)
+* [Relatório 01](exercicios-da-disciplina/relatorio-01.md)
 
 > Novos relatórios serão adicionados conforme as atividades da disciplina forem realizadas.
 
