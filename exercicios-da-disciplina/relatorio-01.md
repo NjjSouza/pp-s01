@@ -1,14 +1,14 @@
-# ▸ Relatório 01 ✿
+# ▸ Relatório 01 - Linguagem Basic ✿
 
 ---
 
-## ▸ Exercícios Propostos ✿
+## Exercícios Propostos ✿
 
 ### 01. Enunciado:
 
 `Faça um programa que leia o peso de uma pessoa (em kg) e a quantidade de água que ela já ingeriu no dia (em ml). A meta diária recomendada de água é calculada multiplicando o peso do indivíduo por 35 ml. Se a quantidade ingerida for maior ou igual à meta recomendada, exiba a mensagem: "Meta atingida!" Caso contrário, exiba a mensagem: "Meta não atingida".`
 
-#### Resolução:
+### Resolução:
 
 ```basic
 DIM peso AS DOUBLE
@@ -30,7 +30,7 @@ ELSE
 END IF
 ```
 
-#### Exemplos de entrada e saída:
+### Exemplos de entrada e saída:
 
 **Meta não atingida:**
 
@@ -60,7 +60,7 @@ Meta atingida!
 
 `Faça um programa que defina um PIN numérico fixo no código (por exemplo: 4321). Peça para o usuário digitar o PIN de acesso. Enquanto o PIN digitado for incorreto, exiba a mensagem: "PIN inválido. Tente novamente." e peça o PIN novamente. Quando o usuário digitar o PIN correto, exiba a mensagem: "Transação autorizada!"`
 
-#### Resolução:
+### Resolução:
 
 ```basic
 DIM pin_fixo AS STRING
@@ -92,7 +92,7 @@ END IF
 
 > max_tentativas adicionado para evitar saída infinita ao executar em ambientes online como o OneCompiler.
 
-#### Exemplos de entrada e saída:
+### Exemplos de entrada e saída:
 
 **Acesso autorizado:**
 
@@ -138,7 +138,7 @@ Transacao autorizada!
 
 `Faça um programa que peça e leia uma quantidade de tempo em Horas. Converta esse valor para minutos e segundos. Ao final, exiba: o valor original em horas, o valor equivalente em minutos e o valor equivalente em segundos.`
 
-#### Resolução:
+### Resolução:
 
 ```basic
 DIM horas AS DOUBLE
@@ -156,7 +156,7 @@ PRINT "Tempo equivalente em minutos:"; minutos
 PRINT "Tempo equivalente em segundos:"; segundos
 ```
 
-#### Exemplos de entrada e saída:
+### Exemplos de entrada e saída:
 
 **Com valores inteiros:**
 
@@ -188,7 +188,7 @@ Tempo equivalente em segundos: 9000
 
 `Faça um programa que peça e leia: a distância percorrida em um treino de corrida (em quilômetros), tempo total gasto para completar a corrida (em minutos). Calcule o pace médio do corredor (tempo gasto por quilômetro): pace = Tempo/Distância. Ao final, exiba o valor do pace médio calculatedo (em min/km)`
 
-#### Resolução:
+### Resolução:
 
 ```basic
 DIM distancia AS DOUBLE
@@ -206,7 +206,7 @@ pace_medio = tempo / distancia
 PRINT "Pace medio:"; pace_medio; "min/km"
 ```
 
-#### Exemplos de entrada e saída:
+### Exemplos de entrada e saída:
 
 **Com valores inteiros:**
 
