@@ -12,6 +12,7 @@ Relatórios e resoluções das atividades propostas na disciplina **Paradigmas d
 
 * [Relatório 01](exercicios-da-disciplina/relatorio-01.md)
 * [Relatório 02](exercicios-da-disciplina/relatorio-02)
+* [Relatório 03](exercicios-da-disciplina/relatorio-03)
 
 > Novos relatórios serão adicionados conforme as atividades da disciplina forem realizadas.
 
