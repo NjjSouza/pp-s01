@@ -10,25 +10,7 @@
 
 ### Resolução:
 
-```basic
-DIM peso AS DOUBLE
-DIM quantidade AS DOUBLE
-DIM meta AS DOUBLE
-
-PRINT "Digite o seu peso (em kg):"
-INPUT peso
-
-PRINT "Digite a quantidade de agua ingerida (em ml):"
-INPUT quantidade
-
-meta = peso * 35
-
-IF quantidade >= meta THEN
-    PRINT "Meta atingida!"
-ELSE
-    PRINT "Meta nao atingida"
-END IF
-```
+* [Ex1](EX1_relatorio1.bas)
 
 ### Exemplos de entrada e saída:
 
@@ -62,33 +44,7 @@ Meta atingida!
 
 ### Resolução:
 
-```basic
-DIM pin_fixo AS STRING
-DIM pin_informado AS STRING
-DIM tentativas AS INTEGER
-DIM max_tentativas AS INTEGER
-
-pin_fixo = "4321"
-tentativas = 0
-max_tentativas = 3
-
-PRINT "Digite o PIN de acesso:"
-INPUT pin_informado
-tentativas = tentativas + 1
-
-WHILE (pin_informado <> pin_fixo) AND (tentativas < max_tentativas)
-    PRINT "PIN invalido. Tente novamente."
-    PRINT "Digite o PIN de acesso:"
-    INPUT pin_informado
-    tentativas = tentativas + 1
-WEND
-
-IF pin_informado = pin_fixo THEN
-    PRINT "Transacao autorizada!"
-ELSE
-    PRINT "Limite de tentativas excedido."
-END IF
-```
+* [Ex2](EX2_relatorio1.bas)
 
 > max_tentativas adicionado para evitar saída infinita ao executar em ambientes online como o OneCompiler.
 
@@ -140,21 +96,7 @@ Transacao autorizada!
 
 ### Resolução:
 
-```basic
-DIM horas AS DOUBLE
-DIM minutos AS DOUBLE
-DIM segundos AS DOUBLE
-
-PRINT "Digite o tempo em horas a ser convertido:"
-INPUT horas
-
-minutos = horas * 60
-segundos = minutos * 60
-
-PRINT "Valor original em horas:"; horas
-PRINT "Tempo equivalente em minutos:"; minutos
-PRINT "Tempo equivalente em segundos:"; segundos
-```
+* [Ex3](EX3_relatorio1.bas)
 
 ### Exemplos de entrada e saída:
 
@@ -190,21 +132,7 @@ Tempo equivalente em segundos: 9000
 
 ### Resolução:
 
-```basic
-DIM distancia AS DOUBLE
-DIM tempo AS DOUBLE
-DIM pace_medio AS DOUBLE
-
-PRINT "Digite a distancia percorrida (em km):"
-INPUT distancia
-
-PRINT "Digite o tempo total gasto (em minutos):"
-INPUT tempo
-
-pace_medio = tempo / distancia
-
-PRINT "Pace medio:"; pace_medio; "min/km"
-```
+* [Ex4](EX4_relatorio1.bas)
 
 ### Exemplos de entrada e saída:
 
