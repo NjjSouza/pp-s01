@@ -1,45 +1,44 @@
-use std::io::{self, Write};
+use std::io;
 
-// função que verifica se a diferença absoluta entre palpite e número secreto é <= 5
+// funcao que verifica se a diferenca absoluta entre palpite e numero secreto e <= 5
 fn acertou_o_alvo(palpite: i32, numero_secreto: i32) -> bool {
     let diferenca = (palpite - numero_secreto).abs();
     diferenca <= 5
 }
 
 fn main() {
-    // número secreto fixo
+    // numero secreto fixo
     let numero_secreto: i32 = 42;
 
-    // estrutura de repetição contínua
+    // estrutura de repeticao continua
     loop {
-        print!("Digite seu palpite: ");
-        io::stdout().flush().unwrap();
+        println!("Digite seu palpite:");
 
         let mut entrada = String::new();
-        io::stdin()
-            .read_line(&mut entrada)
-            .expect("Falha ao ler a entrada");
+        if io::stdin().read_line(&mut entrada).is_err() {
+            break;
+        }
 
         // converte o texto digitado para inteiro
         let palpite: i32 = match entrada.trim().parse() {
             Ok(num) => num,
             Err(_) => {
-                println!("Por favor, digite um número válido.");
+                println!("Por favor, digite um numero valido.");
                 continue;
             }
         };
 
-        // verifica se o palpite está dentro da margem de tolerância (5)
+        // verifica se o palpite esta dentro da margem de tolerancia (5)
         if acertou_o_alvo(palpite, numero_secreto) {
             let distancia = (palpite - numero_secreto).abs();
-            println!("Parabéns, você acertou o alvo!");
+            println!("Parabens, voce acertou o alvo!");
             println!(
-                "Você ficou a apenas {} unidade(s) do número secreto ({})",
+                "Voce ficou a apenas {} unidade(s) do numero secreto ({})",
                 distancia, numero_secreto
             );
             break;
         } else {
-            println!("Você passou longe! Tente novamente.");
+            println!("Voce passou longe! Tente novamente.");
         }
     }
 }

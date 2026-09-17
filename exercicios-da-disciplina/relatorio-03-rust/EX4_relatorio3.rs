@@ -1,55 +1,41 @@
-use std::io::{self, Write};
+use std::io;
 
-// função que imprime todos os números no intervalo que terminam com o dígito informado
-fn imprimir_terminados_em(digito: i32, limite_inferior: i32, limite_superior: i32) {
-    println!("--- Números no intervalo terminados em {} ---", digito);
+// funcao que calcula a pontuacao final do candidato e exibe a situacao
+fn calcular_pontuacao(prova1: f64, prova2: f64, redacao: f64) -> f64 {
+    // calcula a media aritmetica entre prova1 e prova2 (NPT)
+    let npt = (prova1 + prova2) / 2.0;
 
-    // itera do limite inferior até o limite superior (inclusive)
-    for numero in limite_inferior..=limite_superior {
-        // obtém o último dígito utilizando o operador %
-        if numero % 10 == digito {
-            println!("{}", numero);
-        }
+    // calcula a Pontuacao Final com peso de 60% para NPT e 40% para redacao
+    let pf = (npt * 0.6) + (redacao * 0.4);
+
+    // verifica se a pontuacao final atinge a nota minima de aprovacao (60.0)
+    if pf >= 60.0 {
+        println!("Parabens! Candidato aprovado no processo seletivo.");
+    } else {
+        println!("Infelizmente o candidato nao atingiu a pontuacao minima de aprovacao.");
     }
+
+    pf
 }
 
 fn main() {
-    // leitura do dígito final
-    print!("Digite o dígito final desejado (0 a 9): ");
-    io::stdout().flush().unwrap();
-    let mut entrada_digito = String::new();
-    io::stdin()
-        .read_line(&mut entrada_digito)
-        .expect("Falha ao ler o dígito");
-    let digito: i32 = entrada_digito
-        .trim()
-        .parse()
-        .expect("Por favor, digite um número inteiro");
+    // leitura das tres notas fornecidas pelo usuario
+    println!("Digite a nota da Prova Teorica 1:");
+    let mut e1 = String::new();
+    io::stdin().read_line(&mut e1).unwrap();
+    let prova1: f64 = e1.trim().parse().unwrap_or(0.0);
 
-    // leitura do limite inferior
-    print!("Digite o limite inferior: ");
-    io::stdout().flush().unwrap();
-    let mut entrada_inf = String::new();
-    io::stdin()
-        .read_line(&mut entrada_inf)
-        .expect("Falha ao ler o limite inferior");
-    let limite_inferior: i32 = entrada_inf
-        .trim()
-        .parse()
-        .expect("Por favor, digite um número inteiro");
+    println!("Digite a nota da Prova Teorica 2:");
+    let mut e2 = String::new();
+    io::stdin().read_line(&mut e2).unwrap();
+    let prova2: f64 = e2.trim().parse().unwrap_or(0.0);
 
-    // leitura do limite superior
-    print!("Digite o limite superior: ");
-    io::stdout().flush().unwrap();
-    let mut entrada_sup = String::new();
-    io::stdin()
-        .read_line(&mut entrada_sup)
-        .expect("Falha ao ler o limite superior");
-    let limite_superior: i32 = entrada_sup
-        .trim()
-        .parse()
-        .expect("Por favor, digite um número inteiro");
+    println!("Digite a nota da Redacao:");
+    let mut e3 = String::new();
+    io::stdin().read_line(&mut e3).unwrap();
+    let redacao: f64 = e3.trim().parse().unwrap_or(0.0);
 
-    // chamada da função com os valores fornecidos
-    imprimir_terminados_em(digito, limite_inferior, limite_superior);
+    // chamada da funcao e exibicao da pontuacao final retornada
+    let pontuacao_final = calcular_pontuacao(prova1, prova2, redacao);
+    println!("Pontuacao Final: {:.2}", pontuacao_final);
 }

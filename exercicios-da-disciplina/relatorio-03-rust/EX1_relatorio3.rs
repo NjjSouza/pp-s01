@@ -1,6 +1,6 @@
-use std::io::{self, Write};
+use std::io;
 
-// função que valida a placa do veículo conforme os critérios do enunciado (3)
+// funcao que valida a placa do veiculo conforme os criterios do enunciado
 fn validar_placa(placa: &str) -> bool {
     // ter pelo menos 7 caracteres de comprimento
     if placa.chars().count() < 7 {
@@ -12,40 +12,42 @@ fn validar_placa(placa: &str) -> bool {
 
     // percorre cada caractere da placa
     for c in placa.chars() {
-        // contar letras maiúsculas
+        // contar letras maiusculas
         if c.is_ascii_uppercase() {
             cont_maiusculas += 1;
         }
-        // contar números
+        // contar numeros
         else if c.is_numeric() {
             cont_numeros += 1;
         }
     }
 
-    // retorna true apenas se tiver pelo menos 4 maiúsculas e pelo menos 2 números
+    // retorna true apenas se tiver pelo menos 4 maiusculas e pelo menos 2 numeros
     cont_maiusculas >= 4 && cont_numeros >= 2
 }
 
 fn main() {
-    // estrutura loop para solicitar repetidamente até que a placa seja válida
+    // estrutura loop para solicitar repetidamente ate que a placa seja valida
     loop {
-        print!("Digite a placa do veículo: ");
-        io::stdout().flush().unwrap();
+        println!("Digite a placa do veiculo:");
 
         let mut entrada = String::new();
-        io::stdin()
-            .read_line(&mut entrada)
-            .expect("Falha ao ler a entrada");
+        if io::stdin().read_line(&mut entrada).is_err() {
+            break;
+        }
 
-        // remove espaços e quebras de linha (\n ou \r\n) da digitação
+        // remove espacos e quebras de linha da digitacao
         let placa = entrada.trim();
+        if placa.is_empty() {
+            continue;
+        }
 
-        // validação da placa usando a função
+        // validacao da placa usando a funcao
         if validar_placa(placa) {
             println!("Placa cadastrada no sistema!");
-            break; // encerra o laço de repetição
+            break; // encerra o laco de repeticao
         } else {
-            println!("Placa inválida. Tente novamente!");
+            println!("Placa invalida. Tente novamente!");
         }
     }
 }
