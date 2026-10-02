@@ -15,6 +15,7 @@ Relatórios e resoluções das atividades propostas na disciplina **Paradigmas d
 * [Relatório 03](exercicios-da-disciplina/relatorio-03-rust)
 * [Relatório 04](exercicios-da-disciplina/relatorio-04-go)
 * [Relatório 05](exercicios-da-disciplina/relatorio-05-c++)
+* [Relatório 06](exercicios-da-disciplina/relatorio-06-c++-POO)
 
 > Novos relatórios serão adicionados conforme as atividades da disciplina forem realizadas.
 
