@@ -10,7 +10,7 @@
 
 ### Resolução:
 
-* [Ex1](EX1_relatorio1.bas)
+* [Ex1](EX1_relatorio01.bas)
 
 ### Exemplos de entrada e saída:
 
@@ -44,7 +44,7 @@ Meta atingida!
 
 ### Resolução:
 
-* [Ex2](EX2_relatorio1.bas)
+* [Ex2](EX2_relatorio01.bas)
 
 > max_tentativas adicionado para evitar saída infinita ao executar em ambientes online como o OneCompiler.
 
@@ -96,7 +96,7 @@ Transacao autorizada!
 
 ### Resolução:
 
-* [Ex3](EX3_relatorio1.bas)
+* [Ex3](EX3_relatorio01.bas)
 
 ### Exemplos de entrada e saída:
 
@@ -132,7 +132,7 @@ Tempo equivalente em segundos: 9000
 
 ### Resolução:
 
-* [Ex4](EX4_relatorio1.bas)
+* [Ex4](EX4_relatorio01.bas)
 
 ### Exemplos de entrada e saída:
 

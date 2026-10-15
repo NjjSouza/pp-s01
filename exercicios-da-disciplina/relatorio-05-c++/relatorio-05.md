@@ -9,7 +9,7 @@
 `"Crie uma função recursiva chamada int combinar_equipes(int n). Em um torneio eliminatório simétrico, o número de cenários de confrontos possíveis para uma chave de tamanho n é determinado pela análise combinada dos seus subgrupos, seguindo as regras: Se n = 0, a função deve retornar 0. Se n = 1, a função deve retornar 1 (cenário base com um grupo único). Para qualquer valor n > 1, retorne a soma dos cenários dos dois níveis anteriores chamando a própria função: combinar_equipes(n - 1) + combinar_equipes(n - 2). Na main, solicite ao usuário o tamanho do chaveamento n e exiba a quantidade total de combinações calculadas recursivamente."`
 #### Resolução:
 
-* [Ex1](EX1_relatorio5.cpp)
+* [Ex1](EX1_relatorio05.cpp)
 
 #### Exemplos de entrada e saída:
 
@@ -34,7 +34,7 @@ Total de cenários de confrontos possíveis: 8
 
 #### Resolução:
 
-* [Ex2](EX2_relatorio5.cpp)
+* [Ex2](EX2_relatorio05.cpp)
 
 #### Exemplos de entrada e saída:
 
@@ -64,7 +64,7 @@ Confiabilidade total do sistema: 0.8379 (83.79%)
 
 #### Resolução:
 
-* [Ex3](EX3_relatorio5.cpp)
+* [Ex3](EX3_relatorio05.cpp)
 
 #### Exemplos de entrada e saída:
 
@@ -125,7 +125,7 @@ Encerrando sistema de telemetria...
 
 #### Resolução:
 
-* [Ex4](EX4_relatorio5.cpp)
+* [Ex4](EX4_relatorio05.cpp)
 
 #### Exemplos de entrada e saída:
 

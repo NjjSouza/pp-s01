@@ -10,7 +10,7 @@
 
 #### Resolução:
 
-* [Ex1](EX1_relatorio2.lua)
+* [Ex1](EX1_relatorio02.lua)
 
 #### Exemplos de entrada e saída:
 
@@ -42,7 +42,7 @@ Digite a base:
 
 #### Resolução:
 
-* [Ex2](EX2_relatorio2.lua)
+* [Ex2](EX2_relatorio02.lua)
 
 #### Exemplos de entrada e saída:
 
@@ -78,7 +78,7 @@ O número 10 aparece 3 vez(es) na tabela.
 
 #### Resolução:
 
-* [Ex3](EX3_relatorio2.lua)
+* [Ex3](EX3_relatorio02.lua)
 
 #### Exemplos de entrada e saída:
 
@@ -118,7 +118,7 @@ Digite o valor do limite (K):
 
 #### Resolução:
 
-* [Ex4](EX4_relatorio2.lua)
+* [Ex4](EX4_relatorio02.lua)
 
 #### Exemplos de entrada e saída:
 

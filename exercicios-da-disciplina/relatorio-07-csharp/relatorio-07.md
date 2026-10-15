@@ -16,7 +16,7 @@ Tarefa:
 
 #### Resolução:
 
-* [Ex1](EX1_relatorio7.cs)
+* [Ex1](EX1_relatorio07.cs)
 
 #### Exemplo de saída:
 
@@ -48,7 +48,7 @@ Tarefa:
 
 #### Resolução:
 
-* [Ex2](EX2_relatorio7.cs)
+* [Ex2](EX2_relatorio07.cs)
 
 #### Exemplo de saída:
 
@@ -80,7 +80,7 @@ Tarefa:
 
 #### Resolução:
 
-* [Ex3](EX_3_relatorio7.cs)
+* [Ex3](EX3_relatorio07.cs)
 
 #### Exemplo de saída:
 
@@ -107,7 +107,7 @@ Tarefa:
 
 #### Resolução:
 
-* [Ex4](EX_4_relatorio7.cs)
+* [Ex4](EX4_relatorio07.cs)
 
 #### Exemplo de saída:
 

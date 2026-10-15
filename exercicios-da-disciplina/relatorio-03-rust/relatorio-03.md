@@ -10,7 +10,7 @@
 
 #### Resolução:
 
-* [Ex1](EX1_relatorio3.rs)
+* [Ex1](EX1_relatorio03.rs)
 
 #### Exemplos de entrada e saída:
 
@@ -37,7 +37,7 @@ Placa cadastrada no sistema!
 
 #### Resolução:
 
-* [Ex2](EX2_relatorio3.rs)
+* [Ex2](EX2_relatorio03.rs)
 
 #### Exemplos de entrada e saída:
 
@@ -68,7 +68,7 @@ Você ficou a apenas 2 unidade(s) do número secreto (42)
 
 #### Resolução:
 
-* [Ex3](EX3_relatorio3.rs)
+* [Ex3](EX3_relatorio03.rs)
 
 #### Exemplos de entrada e saída:
 
@@ -108,7 +108,7 @@ Digite o valor do limite (K):
 
 #### Resolução:
 
-* [Ex4](EX4_relatorio3.rs)
+* [Ex4](EX4_relatorio03.rs)
 
 #### Exemplos de entrada e saída:
 

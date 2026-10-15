@@ -10,7 +10,7 @@
 
 #### Resolução:
 
-* [Ex1](EX1_relatorio6.cpp)
+* [Ex1](EX1_relatorio06.cpp)
 
 #### Exemplo de saída:
 
@@ -59,7 +59,7 @@ Energia da Plateia: 70
 
 #### Resolução:
 
-* [Ex2](EX2_relatorio6.cpp)
+* [Ex2](EX2_relatorio06.cpp)
 
 #### Exemplo de saída:
 
@@ -87,7 +87,7 @@ Rank Atualizado: 2
 
 #### Resolução:
 
-* [Ex3](EX3_relatorio6.cpp)
+* [Ex3](EX3_relatorio06.cpp)
 
 #### Exemplo de saída:
 
@@ -107,7 +107,7 @@ Meu nome e Dr. Pedro Henrique e leciono a disciplina de Programacao Orientada a 
 
 #### Resolução:
 
-* [Ex4](EX4_relatorio6.cpp)
+* [Ex4](EX4_relatorio06.cpp)
 
 #### Exemplo de saída:
 

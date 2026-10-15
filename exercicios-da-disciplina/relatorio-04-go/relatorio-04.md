@@ -10,7 +10,7 @@
 
 #### Resolução:
 
-* [Ex1](EX1_relatorio4.go)
+* [Ex1](EX1_relatorio04.go)
 
 #### Exemplos de entrada e saída:
 
@@ -41,7 +41,7 @@ Código de rastreio registrado no sistema!
 
 #### Resolução:
 
-* [Ex2](EX2_relatorio4.go)
+* [Ex2](EX2_relatorio04.go)
 
 #### Exemplos de entrada e saída:
 
@@ -70,7 +70,7 @@ Classificação: Categoria Pleno
 
 #### Resolução:
 
-* [Ex3](EX3_relatorio4.go)
+* [Ex3](EX3_relatorio04.go)
 
 #### Exemplos de entrada e saída:
 
@@ -105,7 +105,7 @@ Plantão 5: Dia 17 do mês
 
 #### Resolução:
 
-* [Ex4](EX4_relatorio4.go)
+* [Ex4](EX4_relatorio04.go)
 
 #### Exemplos de entrada e saída:
 
