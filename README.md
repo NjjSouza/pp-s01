@@ -18,6 +18,7 @@ Relatórios e resoluções das atividades propostas na disciplina **Paradigmas d
 * [Relatório 06](exercicios-da-disciplina/relatorio-06-c++-POO)
 * [Relatório 07](exercicios-da-disciplina/relatorio-07-csharp)
 * [Relatório 08](exercicios-da-disciplina/relatorio-08-python)
+* [Relatório 09](exercicios-da-disciplina/relatorio-09-ruby)
 
 > Novos relatórios serão adicionados conforme as atividades da disciplina forem realizadas.
 
